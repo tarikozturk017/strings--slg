@@ -25,14 +25,6 @@ struct Email {
 //      - HINT: use a string library function to compare
 
 
-int isContainAttachment() {
-    char isContain[10];
-    printf("Enter 'yes' to attach file: ");
-    scanf(" %[^\n]", isContain);
-
-    return strcmp(isContain, "yes");
-}
-
 // Complete the function
 void updateContent(char content[]) {
     int input;
